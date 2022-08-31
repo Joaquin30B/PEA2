@@ -24,7 +24,7 @@ namespace Parcial.AppWin
         private void IniciarFormulario(object sender, EventArgs e)
         {
             cargarDatos();
-
+            asignarControl();
         }
 
         private void cargarDatos()
@@ -46,11 +46,17 @@ namespace Parcial.AppWin
         {
             this.producto.Nombre = txtNombre.Text;
             this.producto.Marca = txtMarca.Text;
-            this.producto.Precio = int.Parse(txtPrecio.Text);
+            this.producto.Precio = decimal.Parse(txtPrecio.Text);
             this.producto.Stock = int.Parse(txtStock.Text);
 
         }
 
-
+        private void asignarControl()
+        {
+            txtNombre.Text = producto.Nombre;
+            txtMarca.Text = producto.Marca;
+            txtPrecio.Text = producto.Precio.ToString();
+            txtStock.Text = producto.Stock.ToString();
+        }
     }
 }

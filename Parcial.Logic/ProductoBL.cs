@@ -35,5 +35,6 @@ namespace Parcial.Logic
             var productoData = new ProductoData();
             return productoData.Eliminar(nombre);
         }
+
     }
 }
