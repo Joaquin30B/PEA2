@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bussines Logic", "Bussines Logic", "{BE8FFA5E-08E3-4370-A8C6-4478523A5803}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Layer", "Data Layer", "{8FCD1C36-EA5D-4360-B643-70E03D83CA7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{FA7DA83F-9A3E-44B3-BF6C-61BFA0709824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parcial.Logic", "Parcial.Logic\Parcial.Logic.csproj", "{5C4330FD-86F2-4C6E-A043-81D7B5417C82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pacial.Domine", "Pacial.Domine\Pacial.Domine.csproj", "{DF53BD23-7EF9-40B5-8E2B-103C2C3405C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parcial.Data", "Parcial.Data\Parcial.Data.csproj", "{035EA8FC-8066-425A-A1C4-4542F1697C7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parcial.AppWin", "Parcial.AppWin\Parcial.AppWin.csproj", "{5B8F98C1-B376-4524-91D8-176BCAC6D939}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C4330FD-86F2-4C6E-A043-81D7B5417C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C4330FD-86F2-4C6E-A043-81D7B5417C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C4330FD-86F2-4C6E-A043-81D7B5417C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C4330FD-86F2-4C6E-A043-81D7B5417C82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF53BD23-7EF9-40B5-8E2B-103C2C3405C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF53BD23-7EF9-40B5-8E2B-103C2C3405C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF53BD23-7EF9-40B5-8E2B-103C2C3405C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF53BD23-7EF9-40B5-8E2B-103C2C3405C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{035EA8FC-8066-425A-A1C4-4542F1697C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{035EA8FC-8066-425A-A1C4-4542F1697C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{035EA8FC-8066-425A-A1C4-4542F1697C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{035EA8FC-8066-425A-A1C4-4542F1697C7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B8F98C1-B376-4524-91D8-176BCAC6D939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B8F98C1-B376-4524-91D8-176BCAC6D939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B8F98C1-B376-4524-91D8-176BCAC6D939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B8F98C1-B376-4524-91D8-176BCAC6D939}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5C4330FD-86F2-4C6E-A043-81D7B5417C82} = {BE8FFA5E-08E3-4370-A8C6-4478523A5803}
+		{DF53BD23-7EF9-40B5-8E2B-103C2C3405C0} = {BE8FFA5E-08E3-4370-A8C6-4478523A5803}
+		{035EA8FC-8066-425A-A1C4-4542F1697C7E} = {8FCD1C36-EA5D-4360-B643-70E03D83CA7B}
+		{5B8F98C1-B376-4524-91D8-176BCAC6D939} = {FA7DA83F-9A3E-44B3-BF6C-61BFA0709824}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4C365AC-F3B8-47BE-88D1-31C750D1A308}
+	EndGlobalSection
+EndGlobal
